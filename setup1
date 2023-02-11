@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Generate a new ssh key for the virtual machine
+ssh-keygen -o -t rsa -C “arvin.ehsan.tashakori@gmail.com”
+cd .ssh
+cat id_rsa.pub
