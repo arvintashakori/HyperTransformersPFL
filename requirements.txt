@@ -1,6 +1,8 @@
 torch
 numpy
 tqdm
+yacs
 tensorboard
+efficientnet-pytorch
 ml-collections
-timm
+timm==0.4.9
