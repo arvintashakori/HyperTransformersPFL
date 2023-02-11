@@ -3,7 +3,9 @@
 # Download the nessesary files
 git clone git@github.com:arvintashakori/HyperTransformersPFL.git
 cd HyperTransformersPFL/data
-!wget --no-check-certificate 'https://drive.google.com/file/d/1QaaMJlTJBHu2gzRRwHoqQ9E7nM6PNMke/view?usp=share_link' -O 'cifar10.npy'
+# wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=18GgUTJTp2WDHz9x6ppfbh064hcXMr8TE' -O cifar10.npy
+pip install gdown
+gdown 18GgUTJTp2WDHz9x6ppfbh064hcXMr8TE
 cd
 cd HyperTransformersPFL
 pip install -e .
