@@ -3,11 +3,13 @@
 * Note that we simulate either CWT or FedAVG in one local machine for research usage, donot involve real communication between different clients. 
 
 ## Usage
-### 0. Installation
-
-- Run `cd ViT-FL-main`
-- Install the libraries listed in requirements.txt 
-
+### 0. Installation on LambdaLabs
+- Create a VM
+- Upload setup1.sh and setup2.sh
+- Run `chmod +x setup1`
+- Run `chmod +x setup2`
+- Run `./setup1`
+- Run `./setup1`
 
 ### 1. Prepare Dataset 
 
