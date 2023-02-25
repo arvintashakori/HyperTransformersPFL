@@ -1,7 +1,17 @@
 #!/bin/bash
 
-# Download the nessesary files
+# Download biometric
+git clone git@github.com:arvintashakori/fdr.git
+
+# Download DHP
+git clone git@github.com:arvintashakori/dhp.git
+
+# Download the HyperTransformersPFL files
 git clone git@github.com:arvintashakori/HyperTransformersPFL.git
+
+# Download Actionnet
+git clone git@github.com:delpreto/ActionNet.git
+
 cd HyperTransformersPFL/data
 # wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=18GgUTJTp2WDHz9x6ppfbh064hcXMr8TE' -O cifar10.npy
 pip install gdown
