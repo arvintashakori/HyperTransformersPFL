@@ -6,3 +6,4 @@ tensorboard
 efficientnet-pytorch
 ml-collections
 timm==0.4.9
+pandas
